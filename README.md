@@ -1,5 +1,5 @@
-# IPtheft
-IP stealing tool
+# IPtheft V1.0
+IP stealing tool 
 # How to use?
 1. Install IPtheft
 2. Open the IPtheft folder in the terminal
