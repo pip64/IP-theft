@@ -18,9 +18,8 @@ function getIp() {
 }
 
 $ip = getIp();
-// выведем IP клиента на экран
 
-echo 'You are trolled! :)' . $ip;
+echo 'You are trolled!' . $ip;
 fwrite($fp, "IP: " . $ip . "\n" . "\n");
 fclose($fp);
 
