@@ -9,7 +9,7 @@ def local():
     time.sleep(2)
     print("Succefully! 127.0.0.1:" + str(port))
     print("If you want to throw this link to the enemy - use ngrok TCP(ngrok.com)")
-    os.system("php -S 127.0.0.1:" + str(port) + " -f code/index.php")
+    os.system("php -S 127.0.0.1:" + str(port) + " -f index.php")
 if vo == "local":
     local()
 elif vo == "Local":
