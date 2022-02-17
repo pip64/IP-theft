@@ -7,6 +7,7 @@ print("iptheft version 1.0.1")
 time.sleep(0.3)
 print("wait...")
 time.sleep(0.7)
+print("Welcome!")
 wuse = input("Where are you launching from?\n1. local\n2. replit.com\n> ")
 #start local
 def startlocal():
