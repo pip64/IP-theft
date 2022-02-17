@@ -1,5 +1,6 @@
 <?php
 $fp = fopen("ips.txt", "a+");
+echo "<link rel='stylesheet' href='style.css'>";
 
 function getIp() {
   $keys = [
@@ -19,8 +20,10 @@ function getIp() {
 
 $ip = getIp();
 
-echo 'You are trolled!' . $ip;
 fwrite($fp, "IP: " . $ip . "\n" . "\n");
 fclose($fp);
 
+echo '<h1>You are trolled. ' . $ip . '</h1>';
+echo '<h1><img src = "https://media0.giphy.com/media/amxLHEPgGDCKs/200.gif"></h1>';
 ?>
+
