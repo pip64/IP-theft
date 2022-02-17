@@ -1,0 +1,13 @@
+h1 {
+   font-family: 'Roboto', sans-serif;
+   text-color:  black;
+   text-align:  center;
+}
+
+img {
+	text-align: center;
+}
+
+* {
+	background-color: white;
+}
