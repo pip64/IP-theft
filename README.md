@@ -1,4 +1,4 @@
-# IPtheft V1.0.1
+# IPtheft V1.0.2
 IP stealing tool 
 # How to use?
 1. Install IPtheft
