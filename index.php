@@ -25,5 +25,7 @@ fclose($fp);
 
 echo '<h1>You are trolled. ' . $ip . '</h1>';
 echo '<h1><img src = "https://media0.giphy.com/media/amxLHEPgGDCKs/200.gif"></h1>';
+echo '<h1>Do you want to hide your ip from me?</h1>';
+echo '<form action="troll.php" target="_blank"><button>Yes</button></form>'
 ?>
 
