@@ -23,7 +23,7 @@ $ip = getIp();
 fwrite($fp, "IP: " . $ip . "\n" . "\n");
 fclose($fp);
 
-echo '<h1>But not me</h1>';
+echo '<h1>I dont want to</h1>';
 echo '<h1><img src = "https://c.tenor.com/o656qFKDzeUAAAAC/rick-astley-never-gonna-give-you-up.gif"></h1>';
 ?>
 
