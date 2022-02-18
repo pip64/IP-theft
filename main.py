@@ -33,6 +33,8 @@ elif wuse == "replit.com":
 	startrepl()
 elif wuse == "Replit.com":
 	startrepl()
+elif wuse == "1":
+	startlocal()
 elif wuse == "2":
 	startrepl()
 else:
